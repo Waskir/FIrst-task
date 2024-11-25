@@ -84,13 +84,11 @@
 
             for (int i = 0; i < height; i++)
             {
-                // Rysowanie spacji przed znakami
                 for (int j = 0; j < height - i - 1; j++)
                 {
                     Console.Write(" ");
                 }
 
-                // Rysowanie znaków
                 for (int j = 0; j < 2 * i + 1; j++)
                 {
                     Console.Write(choiceS);
@@ -107,16 +105,14 @@
 
             for (int i = 0; i < height; i++)
             {
-                // Rysowanie spacji przed znakami
                 for (int j = 0; j < height - i - 1; j++)
                 {
                     Console.Write(" ");
                 }
 
-                // Rysowanie krawędzi trójkąta
                 for (int j = 0; j < 2 * i + 1; j++)
                 {
-                    if (j == 0 || j == 2 * i || i == height - 1) // Krawędzie trójkąta
+                    if (j == 0 || j == 2 * i || i == height - 1)
                         Console.Write(choiceS);
                     else
                         Console.Write(" ");

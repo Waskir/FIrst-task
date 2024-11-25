@@ -5,7 +5,6 @@ Console.WriteLine("Jaką figurę wybirasz ?");
 Console.WriteLine("1. Kwadrat");
 Console.WriteLine("2. Prostokąt");
 Console.WriteLine("3. Trójkąt");
-
 string choiceF = Console.ReadLine();
 
 Console.WriteLine("Wybierz jaki symbol wybirasz");
